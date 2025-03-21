@@ -1,5 +1,5 @@
 gradio
 transformers
 torch
-PyMuPDF
+pymupdf==1.22.3
 python-docx
