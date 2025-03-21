@@ -48,4 +48,4 @@ with gr.Blocks() as demo:
     submit_button.click(upload_and_summarize, inputs=[file_input, num_paragraphs_slider], outputs=output_text)
     clear_button.click(lambda: "", inputs=[], outputs=output_text)
 
-demo.launch(share=True)
+demo.launch()
